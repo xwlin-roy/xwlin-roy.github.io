@@ -3,29 +3,45 @@
   "hindex": 10,
   "i10index": 10,
   "publications": {
-    "Zv_rC0AAAAAJ:4DMP91E08xMC": {
-      "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
-      "num_citations": 0
-    },
-    "Zv_rC0AAAAAJ:_kc_bZDykSQC": {
-      "title": "NLSaber: Enhancing Netlink Family Fuzzing via Automated Syscall Description Generation",
-      "num_citations": 1
-    },
-    "Zv_rC0AAAAAJ:ULOm3_A8WrAC": {
-      "title": "OPTSE: Towards Optimal Symbolic Execution",
-      "num_citations": 0
-    },
-    "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
-      "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
-      "num_citations": 0
+    "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
+      "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
+      "num_citations": 652
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
       "num_citations": 146
     },
-    "Zv_rC0AAAAAJ:3fE2CSJIrl8C": {
-      "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
-      "num_citations": 4
+    "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
+      "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
+      "num_citations": 140
+    },
+    "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
+      "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
+      "num_citations": 76
+    },
+    "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
+      "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
+      "num_citations": 68
+    },
+    "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
+      "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
+      "num_citations": 50
+    },
+    "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
+      "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
+      "num_citations": 23
+    },
+    "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
+      "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
+      "num_citations": 21
+    },
+    "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
+      "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
+      "num_citations": 17
+    },
+    "Zv_rC0AAAAAJ:eQOLeE2rZwMC": {
+      "title": "HODOR: Shrinking Attack Surface on Node. js via System Call Limitation",
+      "num_citations": 10
     },
     "Zv_rC0AAAAAJ:hqOjcs7Dif8C": {
       "title": "Smartoracle: Generating smart contract oracle via fine-grained invariant detection",
@@ -35,69 +51,53 @@
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
       "num_citations": 8
     },
-    "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
-      "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
-      "num_citations": 21
-    },
-    "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
-      "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
-      "num_citations": 5
-    },
-    "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
-      "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
-      "num_citations": 17
-    },
-    "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
-      "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 652
-    },
-    "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
-      "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 76
+    "Zv_rC0AAAAAJ:W7OEmFMy1HYC": {
+      "title": "An ABI-based classification approach for Ethereum smart contracts",
+      "num_citations": 8
     },
     "Zv_rC0AAAAAJ:Y0pCki6q_DkC": {
       "title": "Better pay attention whilst fuzzing",
       "num_citations": 7
     },
-    "Zv_rC0AAAAAJ:Se3iqnhoufwC": {
-      "title": "HODOR: Reducing Attack Surface on Node.js via System Call Limitation",
-      "num_citations": 0
+    "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
+      "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
+      "num_citations": 5
     },
-    "Zv_rC0AAAAAJ:eQOLeE2rZwMC": {
-      "title": "HODOR: Shrinking Attack Surface on Node. js via System Call Limitation",
-      "num_citations": 10
-    },
-    "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
-      "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
-      "num_citations": 23
-    },
-    "Zv_rC0AAAAAJ:_FxGoFyzp5QC": {
-      "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
-      "num_citations": 3
-    },
-    "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
-      "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
-      "num_citations": 50
-    },
-    "Zv_rC0AAAAAJ:W7OEmFMy1HYC": {
-      "title": "An ABI-based classification approach for Ethereum smart contracts",
-      "num_citations": 8
-    },
-    "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
-      "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 68
+    "Zv_rC0AAAAAJ:3fE2CSJIrl8C": {
+      "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
+      "num_citations": 4
     },
     "Zv_rC0AAAAAJ:YsMSGLbcyi4C": {
       "title": "Scavenger: Misuse error handling leading to qemu/kvm escape",
       "num_citations": 4
     },
-    "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
-      "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
-      "num_citations": 140
+    "Zv_rC0AAAAAJ:_FxGoFyzp5QC": {
+      "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
+      "num_citations": 3
     },
     "Zv_rC0AAAAAJ:UeHWp8X0CEIC": {
       "title": "DBAF: Dynamic Binary Analysis Framework and Its Applications",
       "num_citations": 2
+    },
+    "Zv_rC0AAAAAJ:_kc_bZDykSQC": {
+      "title": "NLSaber: Enhancing Netlink Family Fuzzing via Automated Syscall Description Generation",
+      "num_citations": 1
+    },
+    "Zv_rC0AAAAAJ:4DMP91E08xMC": {
+      "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
+      "num_citations": 0
+    },
+    "Zv_rC0AAAAAJ:ULOm3_A8WrAC": {
+      "title": "OPTSE: Towards Optimal Symbolic Execution",
+      "num_citations": 0
+    },
+    "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
+      "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
+      "num_citations": 0
+    },
+    "Zv_rC0AAAAAJ:Se3iqnhoufwC": {
+      "title": "HODOR: Reducing Attack Surface on Node.js via System Call Limitation",
+      "num_citations": 0
     },
     "Zv_rC0AAAAAJ:4TOpqqG69KYC": {
       "title": "AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node. js Application",
