@@ -1,5 +1,5 @@
 {
-  "citedby": 1294,
+  "citedby": 1335,
   "hindex": 10,
   "i10index": 11,
   "publications": {
@@ -17,11 +17,11 @@
     },
     "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
       "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
-      "num_citations": 0
+      "num_citations": 1
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 150
+      "num_citations": 157
     },
     "Zv_rC0AAAAAJ:3fE2CSJIrl8C": {
       "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
@@ -33,15 +33,15 @@
     },
     "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 10
+      "num_citations": 11
     },
     "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
-      "num_citations": 21
+      "num_citations": 22
     },
     "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
       "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
-      "num_citations": 7
+      "num_citations": 9
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
@@ -49,7 +49,7 @@
     },
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 673
+      "num_citations": 701
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
@@ -69,7 +69,7 @@
     },
     "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
       "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
-      "num_citations": 24
+      "num_citations": 23
     },
     "Zv_rC0AAAAAJ:_FxGoFyzp5QC": {
       "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
@@ -85,7 +85,7 @@
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 68
+      "num_citations": 70
     },
     "Zv_rC0AAAAAJ:YsMSGLbcyi4C": {
       "title": "Scavenger: Misuse error handling leading to qemu/kvm escape",
