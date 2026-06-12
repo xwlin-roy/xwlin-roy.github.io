@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xingwei(Roy) Lin</title>
+  <meta name="description" content="Xingwei(Roy) Lin - Security Algorithm Expert at Ant Group. Research interests span AI Security and System/Software Security, including LLM safety assessment, vulnerability detection, and automated patch generation. Discovered 100+ vulnerabilities in Apple, Microsoft, QEMU, etc.">
+  <meta property="og:title" content="Xingwei(Roy) Lin">
+  <meta property="og:description" content="Security Algorithm Expert at Ant Group. Research on AI Security and System/Software Security. Discovered 100+ vulnerabilities in Apple, Microsoft, QEMU, etc.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xwlin-roy.github.io/">
+  <meta property="og:image" content="https://xwlin-roy.github.io/og-image.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Xingwei(Roy) Lin">
+  <meta name="twitter:description" content="Security Algorithm Expert at Ant Group. Research on AI Security and System/Software Security. Discovered 100+ vulnerabilities in Apple, Microsoft, QEMU, etc.">
+  <meta name="twitter:image" content="https://xwlin-roy.github.io/og-image.jpg">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23224b8d'/><text x='50' y='49' dy='.35em' text-anchor='middle' font-family='Helvetica,Arial,sans-serif' font-weight='700' font-size='44' fill='%23fff'>Roy</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap">
+    <a href="#" class="nav-brand">Xingwei(Roy) Lin</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about" onclick="closeNav()">About</a></li>
+      <li><a href="#news" onclick="closeNav()">News</a></li>
+      <li><a href="#experience" onclick="closeNav()">Experience</a></li>
+      <li><a href="#education" onclick="closeNav()">Education</a></li>
+      <li><a href="#publications" onclick="closeNav()">Publications</a></li>
+      <li><a href="#awards" onclick="closeNav()">Awards</a></li>
+      <li><a href="#service" onclick="closeNav()">Service</a></li>
+      <li><a href="#cves" onclick="closeNav()">CVEs</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrap">
+<div class="page-layout">
+
+<!-- Sidebar -->
+<aside class="sidebar">
+  <div>
+    <img src="photo.jpg" alt="Xingwei(Roy) Lin">
+    <h1>Xingwei(Roy) Lin</h1>
+    <div class="title">Security Algorithm Expert @ Ant Group</div>
+    <div class="contact"><span id="eml">xwlin.roy<span class="hide">REMOV3</span> [at] gm<span class="hide">NULL</span>ail [dot] com</span></div>
+    <div class="sidebar-links">
+      <a href="https://scholar.google.com/citations?hl=en&user=Zv_rC0AAAAAJ&view_op=list_works" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5l12-3 12 3-4.135 3.13V18.5l-7.865 3-7.865-3v-4.731zM12 21.5l7.865-3v-4.269L12 17.5l-6.758-2.576V18.5l6.758 3z"/></svg>
+        Google Scholar <span class="scholar-stats" id="scholar-citations"></span>
+      </a>
+      <a href="https://github.com/xwlin-roy" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/xingwei-lin-99477b248/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://x.com/xwlin_roy" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        X / Twitter
+      </a>
+    </div>
+  </div>
+</aside>
+
+<!-- Main Content -->
+<main class="main">
+
+<h2 class="section-title" id="about">About</h2>
+<p class="about-text">
+  Xingwei(Roy) Lin is a Security Algorithm Expert at Ant Group, focusing on <strong>the intersection of AI and Security</strong>: securing AI systems (e.g., LLM safety and robustness) and applying LLM-powered agents to software &amp; network security — from vulnerability detection to automated patching. He has discovered over 100 vulnerabilities in widely-deployed software such as Apple, Microsoft, and QEMU, earning Pwnie Awards "Most Innovative Research" nominations in both 2020 and 2021. His work has been published extensively in top-tier venues and received the ACM CCS 2021 Best Paper Award.
+</p>
+<p class="about-text">
+  He is also pursuing a PhD at Zhejiang University under the supervision of Prof.&nbsp;<a href="https://person.zju.edu.cn/en/chunmingwu" target="_blank">Chunming Wu</a>. He received his M.S. from UESTC under the supervision of Prof.&nbsp;<a href="https://faculty.uestc.edu.cn/zhangxiaosong/en/index.htm" target="_blank">Xiaosong Zhang</a> and Prof.&nbsp;<a href="https://faculty.uestc.edu.cn/chenting/en/index.htm" target="_blank">Ting Chen</a>, and was a Research Assistant at PolyU working with Prof.&nbsp;<a href="https://www4.comp.polyu.edu.hk/~csxluo/" target="_blank">Xiapu Luo</a>.
+</p>
+
+<h2 class="section-title" id="research">Research Interests</h2>
+<ul class="research-list">
+  <li><strong>AI Security</strong> &mdash; LLM/Agent safety, robustness, and jailbreak assessment</li>
+  <li><strong>LLM-powered Security Agents</strong> &mdash; Vulnerability detection and automated patch generation</li>
+  <li><strong>System &amp; Software Security</strong> &mdash; Fuzzing, program analysis and binary vulnerability discovery</li>
+</ul>
+
+<h2 class="section-title" id="news">News</h2>
+<ul class="news-list">
+  <li><span class="news-date">[2026.06]</span> Our paper <a href="papers/chaindelta.pdf" target="_blank"><strong>ChainDelta</strong></a>, an LLM-driven fuzzing-agent framework for automatic patch-based exploit generation on Ethereum, is accepted to <strong>FSE 2026</strong>.</li>
+  <li><span class="news-date">[2026.05]</span> Our paper <a href="https://ieeexplore.ieee.org/document/11506232/" target="_blank"><strong>Code Language Models for Security Patch Management: How Far Are We?</strong></a>, the first large-scale empirical study of nine CodeLMs on three patch management tasks, is accepted to <strong>IEEE Transactions on Services Computing (TSC)</strong>.</li>
+  <li><span class="news-date">[2026.01]</span> Our paper <a href="https://arxiv.org/abs/2601.20903" target="_blank"><strong>ICON</strong></a>, an efficient multi-turn jailbreak attack framework leveraging intent-context coupling against LLMs, is now available on arXiv.</li>
+  <li><span class="news-date">[2025]</span> Our paper <a href="https://arxiv.org/abs/2408.06037" target="_blank"><strong>Hyperion</strong></a>, an LLM and dataflow-guided symbolic execution framework for unveiling DApp inconsistencies, is accepted at <strong>ICSE 2025</strong>.</li>
+  <li><span class="news-date">[2025]</span> Our paper <a href="https://ksiresearch.org/seke/seke25paper/paper085.pdf" target="_blank"><strong>AePPollo</strong></a> on LLM-powered prototype pollution vulnerability detection and exploit generation is accepted at <strong>SEKE 2025</strong>.</li>
+</ul>
+
+<h2 class="section-title" id="experience">Experience</h2>
+<table class="info-table">
+  <tr>
+    <td class="col-year">2019.07 &ndash; Present</td>
+    <td class="col-info"><strong>Ant Group</strong>, Security Algorithm Expert</td>
+  </tr>
+  <tr>
+    <td class="col-year">2017.07 &ndash; 2017.12</td>
+    <td class="col-info"><strong>The Hong Kong Polytechnic University</strong>, Research Assistant</td>
+  </tr>
+</table>
+
+<h2 class="section-title" id="education">Education</h2>
+<table class="info-table">
+  <tr>
+    <td class="col-year">2024.09 &ndash; Present</td>
+    <td class="col-info"><strong>Zhejiang University</strong>, Ph.D. in Computer Science and Technology</td>
+  </tr>
+  <tr>
+    <td class="col-year">2016.09 &ndash; 2019.06</td>
+    <td class="col-info"><strong>University of Electronic Science and Technology of China</strong>, M.S. in Computer Science and Technology</td>
+  </tr>
+  <tr>
+    <td class="col-year">2012.09 &ndash; 2016.07</td>
+    <td class="col-info"><strong>University of Electronic Science and Technology of China</strong>, B.E. in Communication Engineering</td>
+  </tr>
+</table>
+
+<h2 class="section-title" id="publications">Selected Publications</h2>
+<p class="pub-note">* corresponding author. Full list: <a href="https://scholar.google.com/citations?hl=en&user=Zv_rC0AAAAAJ&view_op=list_works" target="_blank">Google Scholar</a>.</p>
+<ul class="pub-list">
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">FSE'26</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">ChainDelta: Automatic Patch-Based Exploit Generation for Ethereum with Fuzzing Agents</span>
+      <span class="pub-links"><a href="papers/chaindelta.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Mingxi Ye, Yuhong Nan, Zhijie Zhong, Jianzhong Su, <span class="me">Xingwei Lin</span>, Peilin Zheng, Zibin Zheng</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">TSC'26</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">Code Language Models for Security Patch Management: How Far Are We?</span>
+      <span class="pub-links"><a href="https://ieeexplore.ieee.org/document/11506232/" target="_blank">[paper]</a></span>
+    </div>
+    <div class="pub-authors"><span class="me">Xingwei Lin</span>, Sicong Cao, Le Yu, Xiaobing Sun, Fu Xiao, Lei Xue, Chunming Wu, Kui Ren, David Lo</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">arXiv'26</span>
+      <span class="pub-title">ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack</span>
+      <span class="pub-links"><a href="https://arxiv.org/abs/2601.20903" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors"><span class="me">Xingwei Lin</span>, Wenhao Lin, Sicong Cao, Jiahao Yu, Renke Huang, Lei Xue, Chunming Wu</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">ICSE'25</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">Hyperion: Unveiling DApp Inconsistencies Using LLM and Dataflow-Guided Symbolic Execution</span>
+      <span class="pub-links"><a href="https://arxiv.org/abs/2408.06037" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Shuo Yang, <span class="me">Xingwei Lin</span>, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">TOSEM'25</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">Scuzer: A Scheduling Optimization Fuzzer for TVM</span>
+      <span class="pub-links"><a href="papers/scuzer.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Xiangxiang Chen, <span class="me">Xingwei Lin</span>, Jingyi Wang, Jun Sun, Jiashui Wang, Wenhai Wang</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">SEKE'25</span>
+      <span class="pub-ccf-c">(CCF-C)</span>
+      <span class="pub-title">AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node.js Application</span>
+      <span class="pub-links"><a href="https://ksiresearch.org/seke/seke25paper/paper085.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Wenya Wang, Wang Gao, Zhenghe Wang, Sicong Cao, <span class="me">Xingwei Lin*</span>, Dawu Gu</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">USENIX Security'24</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks</span>
+      <span class="pub-links"><a href="https://www.usenix.org/system/files/usenixsecurity24-yu-jiahao.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Jiahao Yu, <span class="me">Xingwei Lin</span>, Zheng Yu, Xinyu Xing</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">USENIX Security'24</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">Code is not Natural Language: Unlock the Power of Semantics-Oriented Graph Representation for Binary Code Similarity Detection</span>
+      <span class="pub-links"><a href="https://www.usenix.org/system/files/usenixsecurity24-he-haojie.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Haojie He, <span class="me">Xingwei Lin</span>, Ziang Weng, Ruijie Zhao, Shuitao Gan, Libo Chen, Yuede Ji, Jiashui Wang, Zhi Xue</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">CCS'23</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">HODOR: Shrinking Attack Surface on Node.js via System Call Limitation</span>
+      <span class="pub-links"><a href="papers/hodor.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Wenya Wang, <span class="me">Xingwei Lin</span>, Jingyi Wang, Wang Gao, Dawu Gu, Wei Lv, Jiashui Wang</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">CCS'21</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-award">Best Paper</span>
+      <span class="pub-title">V-SHUTTLE: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing</span>
+      <span class="pub-links"><a href="https://nesa.zju.edu.cn/download/pgn_pdf_V-SHUTTLE.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Gaoning Pan, <span class="me">Xingwei Lin</span>, Xuhong Zhang, Yongkang Jia, Shouling Ji, Chunming Wu, Xinlei Ying, Jiashui Wang, Yanjun Wu</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">USENIX Security'21</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">APICRAFT: Fuzz Driver Generation for Closed-source SDK Libraries</span>
+      <span class="pub-links"><a href="https://www.usenix.org/system/files/sec21-zhang-cen.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Cen Zhang, <span class="me">Xingwei Lin</span>, Yuekang Li, Yinxing Xue, Jundong Xie, Hongxu Chen, Xinlei Ying, Jiashui Wang, Yang Liu</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">CCS'18</span>
+      <span class="pub-ccf-a">(CCF-A)</span>
+      <span class="pub-title">JN-SAF: Precise and Efficient NDK/JNI-aware Inter-language Static Analysis Framework for Security Vetting of Android Applications with Native Code</span>
+      <span class="pub-links"><a href="https://www.arguslab.org/documents/JN-SafCCS18.pdf" target="_blank">[pdf]</a></span>
+    </div>
+    <div class="pub-authors">Fengguo Wei, <span class="me">Xingwei Lin</span>, Xinming Ou, Ting Chen, Xiaosong Zhang</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">Black Hat Europe'23</span>
+      <span class="pub-title">HODOR: Reducing Attack Surface on Node.js via System Call Limitation</span>
+      <span class="pub-links"><a href="https://www.blackhat.com/eu-23/briefings/schedule/#hodor-reducing-attack-surface-on-nodejs-via-system-call-limitation-35216" target="_blank">[talk]</a></span>
+    </div>
+    <div class="pub-authors">Wenya Wang, <span class="me">Xingwei Lin</span>, Jingyi Wang, Wang Gao, Dawu Gu</div>
+  </li>
+
+  <li>
+    <div class="pub-line1">
+      <span class="pub-venue">Black Hat Asia'21</span>
+      <span class="pub-title">Scavenger: Misuse Error Handling Leading to Qemu/KVM Escape</span>
+      <span class="pub-links"><a href="https://www.blackhat.com/asia-21/briefings/schedule/#scavenger-misuse-error-handling-leading-to-qemukvm-escape-21971" target="_blank">[talk]</a></span>
+    </div>
+    <div class="pub-authors">Gaoning Pan, <span class="me">Xingwei Lin</span>, Xinlei Ying, Jiashui Wang, Chunming Wu</div>
+  </li>
+
+</ul>
+
+<h2 class="section-title" id="awards">Awards &amp; Honors</h2>
+<ul class="awards-list">
+  <li><span class="award-year">2023</span> <strong>Frontier Breakthrough Award &amp; Outstanding Presentation Award</strong>, GeekCon</li>
+  <li><span class="award-year">2023</span> <strong>First Prize</strong>, 3rd Trusted Blockchain Security Attack-Defense Competition</li>
+  <li><span class="award-year">2023</span> <strong>Best Paper Award</strong>, BlockSys 2023</li>
+  <li><span class="award-year">2021</span> <strong>Best Paper Award</strong>, ACM CCS 2021 (V-SHUTTLE)</li>
+  <li><span class="award-year">2021</span> <strong>Pwnie Awards Nomination</strong>, "Most Innovative Research" (V-SHUTTLE)</li>
+  <li><span class="award-year">2021</span> <strong>2nd Place</strong>, Baidu BCTF AutoPwn</li>
+  <li><span class="award-year">2020</span> <strong>Pwnie Awards Nomination</strong>, "Most Innovative Research" (APICRAFT)</li>
+</ul>
+
+<h2 class="section-title" id="service">Professional Service</h2>
+<ul class="service-list">
+  <li><strong>Program Committee</strong> &mdash; AAAI 2027 (Main Technical Track &amp; Special Track on AI Alignment)</li>
+  <li><strong>Program Committee</strong> &mdash; ACM CCS 2024 (Software Security Track)</li>
+  <li><strong>Program Committee</strong> &mdash; ACM AsiaCCS 2027 (AI Security Track)</li>
+  <li><strong>Journal Reviewer</strong> &mdash; Automated Software Engineering (ASE), 2026</li>
+</ul>
+
+<h2 class="section-title" id="cves">CVE Contributions</h2>
+<p class="cve-intro">
+  Responsibly disclosed <strong>90+ CVEs</strong> across major software vendors.
+</p>
+
+<details class="cve-group">
+  <summary>Apple (75 CVEs)</summary>
+  <div class="cve-ids">
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9790">CVE-2020-9790</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9871">CVE-2020-9871</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9872">CVE-2020-9872</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9873">CVE-2020-9873</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9874">CVE-2020-9874</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9877">CVE-2020-9877</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9879">CVE-2020-9879</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9888">CVE-2020-9888</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9889">CVE-2020-9889</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9890">CVE-2020-9890</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9891">CVE-2020-9891</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9937">CVE-2020-9937</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9938">CVE-2020-9938</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9955">CVE-2020-9955</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9960">CVE-2020-9960</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9961">CVE-2020-9961</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9980">CVE-2020-9980</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11758">CVE-2020-11758</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11759">CVE-2020-11759</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11760">CVE-2020-11760</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11761">CVE-2020-11761</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11762">CVE-2020-11762</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11763">CVE-2020-11763</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11764">CVE-2020-11764</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11765">CVE-2020-11765</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27908">CVE-2020-27908</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27909">CVE-2020-27909</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27910">CVE-2020-27910</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27912">CVE-2020-27912</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27919">CVE-2020-27919</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27927">CVE-2020-27927</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27933">CVE-2020-27933</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27939">CVE-2020-27939</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29608">CVE-2020-29608</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29615">CVE-2020-29615</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29617">CVE-2020-29617</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29618">CVE-2020-29618</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29619">CVE-2020-29619</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29625">CVE-2020-29625</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1736">CVE-2021-1736</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1737">CVE-2021-1737</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1741">CVE-2021-1741</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1742">CVE-2021-1742</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1743">CVE-2021-1743</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1744">CVE-2021-1744</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1746">CVE-2021-1746</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1754">CVE-2021-1754</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1773">CVE-2021-1773</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1774">CVE-2021-1774</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1777">CVE-2021-1777</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1778">CVE-2021-1778</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1783">CVE-2021-1783</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1785">CVE-2021-1785</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1793">CVE-2021-1793</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1811">CVE-2021-1811</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1814">CVE-2021-1814</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1818">CVE-2021-1818</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1880">CVE-2021-1880</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-1881">CVE-2021-1881</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30743">CVE-2021-30743</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30753">CVE-2021-30753</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30755">CVE-2021-30755</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30831">CVE-2021-30831</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30840">CVE-2021-30840</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30841">CVE-2021-30841</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30842">CVE-2021-30842</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30843">CVE-2021-30843</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30911">CVE-2021-30911</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30929">CVE-2021-30929</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30939">CVE-2021-30939</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30940">CVE-2021-30940</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30941">CVE-2021-30941</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42810">CVE-2022-42810</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36521">CVE-2020-36521</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-24127">CVE-2025-24127</a>
+  </div>
+</details>
+
+<details class="cve-group">
+  <summary>Oracle VirtualBox (9 CVEs)</summary>
+  <div class="cve-ids">
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-2905">CVE-2020-2905</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14872">CVE-2020-14872</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14889">CVE-2020-14889</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14892">CVE-2020-14892</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2073">CVE-2021-2073</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2074">CVE-2021-2074</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2086">CVE-2021-2086</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2123">CVE-2021-2123</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2130">CVE-2021-2130</a>
+  </div>
+</details>
+
+<details class="cve-group">
+  <summary>QEMU (2 CVEs)</summary>
+  <div class="cve-ids">
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14394">CVE-2020-14394</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27661">CVE-2020-27661</a>
+  </div>
+</details>
+
+<details class="cve-group">
+  <summary>Microsoft (1 CVE)</summary>
+  <div class="cve-ids">
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1492">CVE-2020-1492</a>
+  </div>
+</details>
+
+<details class="cve-group">
+  <summary>SQLite (1 CVE)</summary>
+  <div class="cve-ids">
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16168">CVE-2019-16168</a>
+  </div>
+</details>
+
+<details class="cve-group">
+  <summary>OpenEXR (1 CVE)</summary>
+  <div class="cve-ids">
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15306">CVE-2020-15306</a>
+  </div>
+</details>
+
+<details class="cve-group">
+  <summary>libextractor (3 CVEs)</summary>
+  <div class="cve-ids">
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14346">CVE-2018-14346</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14347">CVE-2018-14347</a>,
+    <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16430">CVE-2018-16430</a>
+  </div>
+</details>
+
+</main>
+</div>
+</div>
+
+<footer class="footer">
+  <div class="wrap">&copy; 2026 Xingwei(Roy) Lin &middot; Last updated: Jun 2026</div>
+</footer>
+
+<script>
+function closeNav() {
+  document.querySelector('.nav-links').classList.remove('open');
+}
+// Email anti-spam: reconstruct on hover
+document.getElementById('eml').addEventListener('click', function() {
+  var u = 'xwlin.roy', d = 'gmail.com';
+  window.location.href = 'mai' + 'lto:' + u + '@' + d;
+});
+document.getElementById('eml').style.cursor = 'pointer';
+document.getElementById('eml').title = 'Click to email';
+
+// Google Scholar citation count
+fetch('https://raw.githubusercontent.com/xwlin-roy/xwlin-roy.github.io/google-scholar-stats/gs_data.json?v=' + new Date().toISOString().slice(0, 10))
+  .then(r => r.json())
+  .then(data => {
+    var el = document.getElementById('scholar-citations');
+    if (el && data.citedby) el.textContent = '(' + data.citedby + ' citations)';
+  })
+  .catch(() => {});
+</script>
+
+</body>
+</html>
