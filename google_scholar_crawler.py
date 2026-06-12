@@ -2,11 +2,18 @@ import json
 import os
 import sys
 import time
-import urllib.request
 import urllib.parse
+import urllib.request
 
 SCHOLAR_ID = os.environ.get("SCHOLAR_ID", "Zv_rC0AAAAAJ")
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY")
+PAGE_SIZE = 100
+
+
+def fetch_json(params):
+    url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
+    with urllib.request.urlopen(urllib.request.Request(url), timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 
 def get_stats_serpapi(scholar_id, api_key):
@@ -15,96 +22,42 @@ def get_stats_serpapi(scholar_id, api_key):
         print("ERROR: SERPAPI_KEY environment variable is not set.")
         sys.exit(1)
 
-    # Fetch author profile (includes citations, h-index, i10-index)
-    params = {
+    base_params = {
         "engine": "google_scholar_author",
         "author_id": scholar_id,
         "hl": "en",
         "api_key": api_key,
+        "num": str(PAGE_SIZE),
     }
-    url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
-    print(f"Fetching author profile from SerpAPI...")
+    print("Fetching author profile from SerpAPI...")
+    data = fetch_json(base_params)
 
-    req = urllib.request.Request(url)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
+    # Citation table rows: {"citations": {"all": N}}, {"h_index": {"all": N}}, {"i10_index": {"all": N}}
+    metrics = {}
+    for row in data.get("cited_by", {}).get("table", []):
+        for key, values in row.items():
+            metrics[key.replace("_", "")] = values.get("all", 0)
 
-    # Extract author stats from the author profile response
-    author = data.get("author", {})
-    citedby = 0
-    hindex = 0
-    i10index = 0
-
-    # The citation table is in the "cited_by" section of the response
-    cited_by_section = data.get("cited_by", {})
-    # cited_by table has rows like [{ "citations": { "all": 1335 }, "hindex": { "all": 10 }, "i10index": { "all": 11 } }]
-    for table_entry in cited_by_section.get("table", []):
-        if "citations" in table_entry:
-            citedby = table_entry["citations"].get("all", 0)
-        if "hindex" in table_entry:
-            hindex = table_entry["hindex"].get("all", 0)
-        if "i10index" in table_entry:
-            i10index = table_entry["i10index"].get("all", 0)
-
-    # Extract publications with pagination
     publications = {}
-    articles = data.get("articles", [])
-    for article in articles:
-        title = article.get("title", "")
-        num_citations = 0
-        cited_by_info = article.get("cited_by", {})
-        if isinstance(cited_by_info, dict):
-            num_citations = cited_by_info.get("total", 0)
-        pub_id = article.get("result_id", scholar_id + ":" + title[:30])
-        publications[pub_id] = {
-            "title": title,
-            "num_citations": num_citations,
-        }
-
-    # Paginate to get all publications
-    next_page_token = data.get("serpapi_pagination", {}).get("next_page_token")
-    page_num = 2
-    while next_page_token:
-        print(f"Fetching page {page_num} of publications...")
-        pag_params = {
-            "engine": "google_scholar_author",
-            "author_id": scholar_id,
-            "hl": "en",
-            "api_key": api_key,
-            "start": next_page_token,
-            "num": "20",
-        }
-        pag_url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(pag_params)
-        try:
-            pag_req = urllib.request.Request(pag_url)
-            with urllib.request.urlopen(pag_req, timeout=30) as pag_resp:
-                pag_data = json.loads(pag_resp.read().decode("utf-8"))
-        except Exception as e:
-            print(f"Pagination failed on page {page_num}: {e}")
-            break
-
-        pag_articles = pag_data.get("articles", [])
-        if not pag_articles:
-            break
-        for article in pag_articles:
+    while True:
+        articles = data.get("articles", [])
+        for article in articles:
             title = article.get("title", "")
-            num_citations = 0
-            cited_by_info = article.get("cited_by", {})
-            if isinstance(cited_by_info, dict):
-                num_citations = cited_by_info.get("total", 0)
-            pub_id = article.get("result_id", scholar_id + ":" + title[:30])
+            pub_id = article.get("citation_id") or scholar_id + ":" + title[:30]
             publications[pub_id] = {
                 "title": title,
-                "num_citations": num_citations,
+                "num_citations": (article.get("cited_by") or {}).get("value") or 0,
             }
-        next_page_token = pag_data.get("serpapi_pagination", {}).get("next_page_token")
-        page_num += 1
-        time.sleep(1)  # Be nice to the API
+        if len(articles) < PAGE_SIZE:
+            break
+        print(f"Fetching next page (start={len(publications)})...")
+        time.sleep(1)
+        data = fetch_json({**base_params, "start": str(len(publications))})
 
     return {
-        "citedby": citedby,
-        "hindex": hindex,
-        "i10index": i10index,
+        "citedby": metrics.get("citations", 0),
+        "hindex": metrics.get("hindex", 0),
+        "i10index": metrics.get("i10index", 0),
         "publications": publications,
     }
 
