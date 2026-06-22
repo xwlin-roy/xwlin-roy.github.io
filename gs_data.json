@@ -1,15 +1,15 @@
 {
-  "citedby": 1465,
+  "citedby": 1473,
   "hindex": 11,
   "i10index": 13,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 778
+      "num_citations": 782
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 171
+      "num_citations": 174
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
@@ -17,7 +17,7 @@
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 81
+      "num_citations": 83
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
@@ -27,17 +27,17 @@
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
       "num_citations": 52
     },
-    "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
-      "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
-      "num_citations": 27
-    },
     "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
-      "num_citations": 24
+      "num_citations": 25
+    },
+    "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
+      "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
+      "num_citations": 25
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
-      "num_citations": 21
+      "num_citations": 22
     },
     "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
@@ -77,7 +77,7 @@
     },
     "Zv_rC0AAAAAJ:_FxGoFyzp5QC": {
       "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
-      "num_citations": 4
+      "num_citations": 3
     },
     "Zv_rC0AAAAAJ:UeHWp8X0CEIC": {
       "title": "DBAF: Dynamic Binary Analysis Framework and Its Applications",
