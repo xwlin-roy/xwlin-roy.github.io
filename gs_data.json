@@ -1,11 +1,11 @@
 {
-  "citedby": 1473,
+  "citedby": 1494,
   "hindex": 11,
   "i10index": 13,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 782
+      "num_citations": 797
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
@@ -13,26 +13,26 @@
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
-      "num_citations": 147
+      "num_citations": 148
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 83
+      "num_citations": 85
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 78
+      "num_citations": 79
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
       "num_citations": 52
     },
-    "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
-      "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
-      "num_citations": 25
-    },
     "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
       "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
+      "num_citations": 27
+    },
+    "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
+      "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
       "num_citations": 25
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
