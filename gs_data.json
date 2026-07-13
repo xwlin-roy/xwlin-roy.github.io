@@ -1,19 +1,19 @@
 {
-  "citedby": 1525,
+  "citedby": 1535,
   "hindex": 11,
   "i10index": 13,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 809
+      "num_citations": 814
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 183
+      "num_citations": 186
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
-      "num_citations": 148
+      "num_citations": 149
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
@@ -21,7 +21,7 @@
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 80
+      "num_citations": 81
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
