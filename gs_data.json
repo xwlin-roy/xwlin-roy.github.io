@@ -1,11 +1,11 @@
 {
-  "citedby": 1535,
+  "citedby": 1544,
   "hindex": 11,
   "i10index": 13,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 814
+      "num_citations": 818
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
@@ -17,15 +17,15 @@
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 89
+      "num_citations": 90
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 81
+      "num_citations": 82
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
-      "num_citations": 52
+      "num_citations": 53
     },
     "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
       "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
@@ -41,7 +41,7 @@
     },
     "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 18
+      "num_citations": 19
     },
     "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
       "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
@@ -63,13 +63,13 @@
       "title": "An ABI-based classification approach for Ethereum smart contracts",
       "num_citations": 8
     },
+    "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
+      "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
+      "num_citations": 5
+    },
     "Zv_rC0AAAAAJ:YsMSGLbcyi4C": {
       "title": "Scavenger: Misuse error handling leading to qemu/kvm escape",
       "num_citations": 5
-    },
-    "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
-      "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
-      "num_citations": 4
     },
     "Zv_rC0AAAAAJ:3fE2CSJIrl8C": {
       "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
