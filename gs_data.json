@@ -1,15 +1,15 @@
 {
-  "citedby": 1559,
-  "hindex": 11,
+  "citedby": 1577,
+  "hindex": 12,
   "i10index": 13,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 824
+      "num_citations": 828
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 189
+      "num_citations": 192
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
@@ -17,23 +17,23 @@
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 92
+      "num_citations": 99
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 83
+      "num_citations": 81
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
       "num_citations": 53
     },
     "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
-      "title": "Defiwarder: Protecting defi apps from token leaking vulnerabilities",
-      "num_citations": 29
+      "title": "DeFiWarder: Protecting DeFi apps from token leaking vulnerabilities",
+      "num_citations": 27
     },
     "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
-      "num_citations": 25
+      "num_citations": 26
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
@@ -41,18 +41,18 @@
     },
     "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 19
+      "num_citations": 20
     },
     "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
       "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
       "num_citations": 12
     },
-    "Zv_rC0AAAAAJ:hqOjcs7Dif8C": {
-      "title": "Smartoracle: Generating smart contract oracle via fine-grained invariant detection",
-      "num_citations": 11
-    },
     "Zv_rC0AAAAAJ:eQOLeE2rZwMC": {
       "title": "HODOR: Shrinking Attack Surface on Node. js via System Call Limitation",
+      "num_citations": 12
+    },
+    "Zv_rC0AAAAAJ:hqOjcs7Dif8C": {
+      "title": "Smartoracle: Generating smart contract oracle via fine-grained invariant detection",
       "num_citations": 11
     },
     "Zv_rC0AAAAAJ:Y0pCki6q_DkC": {
@@ -64,11 +64,11 @@
       "num_citations": 8
     },
     "Zv_rC0AAAAAJ:YsMSGLbcyi4C": {
-      "title": "Scavenger: Misuse error handling leading to qemu/kvm escape",
-      "num_citations": 6
+      "title": "Scavenger: Misuse error handling leading to QEMU/KVM escape",
+      "num_citations": 8
     },
     "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
-      "title": "Quantitative Runtime Monitoring of Ethereum Transaction Attacks",
+      "title": "Quantitative runtime monitoring of Ethereum transaction attacks",
       "num_citations": 5
     },
     "Zv_rC0AAAAAJ:3fE2CSJIrl8C": {
@@ -83,8 +83,20 @@
       "title": "DBAF: Dynamic Binary Analysis Framework and Its Applications",
       "num_citations": 2
     },
+    "Zv_rC0AAAAAJ:Wp0gIr-vW9MC": {
+      "title": "MAS-SZZ: Multi-Agentic SZZ Algorithm for Vulnerability-Inducing Commit Identification",
+      "num_citations": 1
+    },
+    "Zv_rC0AAAAAJ:4DMP91E08xMC": {
+      "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
+      "num_citations": 1
+    },
     "Zv_rC0AAAAAJ:_kc_bZDykSQC": {
       "title": "NLSaber: Enhancing Netlink Family Fuzzing via Automated Syscall Description Generation",
+      "num_citations": 1
+    },
+    "Zv_rC0AAAAAJ:ULOm3_A8WrAC": {
+      "title": "OptSE: Toward Optimal Symbolic Execution",
       "num_citations": 1
     },
     "Zv_rC0AAAAAJ:4TOpqqG69KYC": {
@@ -101,18 +113,6 @@
     },
     "Zv_rC0AAAAAJ:mVmsd5A6BfQC": {
       "title": "Code Language Models for Security Patch Management: How Far Are We?",
-      "num_citations": 0
-    },
-    "Zv_rC0AAAAAJ:Wp0gIr-vW9MC": {
-      "title": "MAS-SZZ: Multi-Agentic SZZ Algorithm for Vulnerability-Inducing Commit Identification",
-      "num_citations": 0
-    },
-    "Zv_rC0AAAAAJ:4DMP91E08xMC": {
-      "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
-      "num_citations": 0
-    },
-    "Zv_rC0AAAAAJ:ULOm3_A8WrAC": {
-      "title": "OPTSE: Towards Optimal Symbolic Execution",
       "num_citations": 0
     },
     "Zv_rC0AAAAAJ:Se3iqnhoufwC": {
