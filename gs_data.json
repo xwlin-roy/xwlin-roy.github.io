@@ -1,19 +1,19 @@
 {
-  "citedby": 1620,
-  "hindex": 12,
+  "citedby": 1636,
+  "hindex": 13,
   "i10index": 13,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 848
+      "num_citations": 856
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 195
+      "num_citations": 198
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
-      "num_citations": 150
+      "num_citations": 151
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
@@ -35,25 +35,25 @@
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
       "num_citations": 26
     },
-    "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
-      "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 23
-    },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
+      "num_citations": 24
+    },
+    "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
+      "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
       "num_citations": 23
     },
     "Zv_rC0AAAAAJ:eQOLeE2rZwMC": {
       "title": "HODOR: Shrinking Attack Surface on Node. js via System Call Limitation",
       "num_citations": 15
     },
+    "Zv_rC0AAAAAJ:hqOjcs7Dif8C": {
+      "title": "Smartoracle: Generating smart contract oracle via fine-grained invariant detection",
+      "num_citations": 13
+    },
     "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
       "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
       "num_citations": 13
-    },
-    "Zv_rC0AAAAAJ:hqOjcs7Dif8C": {
-      "title": "Smartoracle: Generating smart contract oracle via fine-grained invariant detection",
-      "num_citations": 12
     },
     "Zv_rC0AAAAAJ:Y0pCki6q_DkC": {
       "title": "Better pay attention whilst fuzzing",
@@ -83,9 +83,17 @@
       "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
       "num_citations": 3
     },
+    "Zv_rC0AAAAAJ:4TOpqqG69KYC": {
+      "title": "AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node. js Application.",
+      "num_citations": 2
+    },
     "Zv_rC0AAAAAJ:UeHWp8X0CEIC": {
       "title": "DBAF: Dynamic Binary Analysis Framework and Its Applications",
       "num_citations": 2
+    },
+    "Zv_rC0AAAAAJ:9ZlFYXVOiuMC": {
+      "title": "ChainDelta: Automatic Patch-Based Exploit Generation for Ethereum with Fuzzing Agents",
+      "num_citations": 1
     },
     "Zv_rC0AAAAAJ:mVmsd5A6BfQC": {
       "title": "Code Language Models for Security Patch Management: How Far Are We?",
@@ -103,20 +111,12 @@
       "title": "OptSE: Toward Optimal Symbolic Execution",
       "num_citations": 1
     },
-    "Zv_rC0AAAAAJ:4TOpqqG69KYC": {
-      "title": "AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node. js Application.",
-      "num_citations": 1
-    },
     "Zv_rC0AAAAAJ:dhFuZR0502QC": {
       "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
       "num_citations": 0
     },
     "Zv_rC0AAAAAJ:QIV2ME_5wuYC": {
       "title": "Knowledge-Enhanced Agentic Vulnerability Repair",
-      "num_citations": 0
-    },
-    "Zv_rC0AAAAAJ:9ZlFYXVOiuMC": {
-      "title": "ChainDelta: Automatic Patch-Based Exploit Generation for Ethereum with Fuzzing Agents",
       "num_citations": 0
     },
     "Zv_rC0AAAAAJ:Se3iqnhoufwC": {
