@@ -1,15 +1,15 @@
 {
-  "citedby": 1690,
+  "citedby": 1712,
   "hindex": 13,
   "i10index": 14,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 881
+      "num_citations": 889
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 205
+      "num_citations": 209
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
@@ -17,7 +17,7 @@
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 106
+      "num_citations": 108
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
@@ -25,19 +25,19 @@
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
-      "num_citations": 55
+      "num_citations": 56
     },
     "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
       "title": "DeFiWarder: Protecting DeFi apps from token leaking vulnerabilities",
-      "num_citations": 28
+      "num_citations": 29
+    },
+    "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
+      "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
+      "num_citations": 27
     },
     "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
       "num_citations": 27
-    },
-    "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
-      "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 25
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
@@ -49,7 +49,7 @@
     },
     "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
       "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
-      "num_citations": 14
+      "num_citations": 15
     },
     "Zv_rC0AAAAAJ:hqOjcs7Dif8C": {
       "title": "Smartoracle: Generating smart contract oracle via fine-grained invariant detection",
@@ -59,6 +59,10 @@
       "title": "Better pay attention whilst fuzzing",
       "num_citations": 10
     },
+    "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
+      "title": "Quantitative runtime monitoring of Ethereum transaction attacks",
+      "num_citations": 8
+    },
     "Zv_rC0AAAAAJ:W7OEmFMy1HYC": {
       "title": "An ABI-based classification approach for Ethereum smart contracts",
       "num_citations": 8
@@ -66,10 +70,6 @@
     "Zv_rC0AAAAAJ:YsMSGLbcyi4C": {
       "title": "Scavenger: Misuse error handling leading to QEMU/KVM escape",
       "num_citations": 8
-    },
-    "Zv_rC0AAAAAJ:kNdYIx-mwKoC": {
-      "title": "Quantitative runtime monitoring of Ethereum transaction attacks",
-      "num_citations": 7
     },
     "Zv_rC0AAAAAJ:3fE2CSJIrl8C": {
       "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
@@ -91,17 +91,21 @@
       "title": "AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node. js Application.",
       "num_citations": 3
     },
+    "Zv_rC0AAAAAJ:dhFuZR0502QC": {
+      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+      "num_citations": 2
+    },
     "Zv_rC0AAAAAJ:mVmsd5A6BfQC": {
       "title": "Code Language Models for Security Patch Management: How Far Are We?",
+      "num_citations": 2
+    },
+    "Zv_rC0AAAAAJ:ULOm3_A8WrAC": {
+      "title": "OptSE: Toward Optimal Symbolic Execution",
       "num_citations": 2
     },
     "Zv_rC0AAAAAJ:UeHWp8X0CEIC": {
       "title": "DBAF: Dynamic Binary Analysis Framework and Its Applications",
       "num_citations": 2
-    },
-    "Zv_rC0AAAAAJ:dhFuZR0502QC": {
-      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
-      "num_citations": 1
     },
     "Zv_rC0AAAAAJ:Wp0gIr-vW9MC": {
       "title": "MAS-SZZ: Multi-Agentic SZZ Algorithm for Vulnerability-Inducing Commit Identification",
@@ -109,10 +113,6 @@
     },
     "Zv_rC0AAAAAJ:_kc_bZDykSQC": {
       "title": "NLSaber: Enhancing Netlink Family Fuzzing via Automated Syscall Description Generation",
-      "num_citations": 1
-    },
-    "Zv_rC0AAAAAJ:ULOm3_A8WrAC": {
-      "title": "OptSE: Toward Optimal Symbolic Execution",
       "num_citations": 1
     },
     "Zv_rC0AAAAAJ:QIV2ME_5wuYC": {
