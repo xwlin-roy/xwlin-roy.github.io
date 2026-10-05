@@ -1,23 +1,23 @@
 {
-  "citedby": 1719,
+  "citedby": 1747,
   "hindex": 13,
   "i10index": 14,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 891
+      "num_citations": 907
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 210
+      "num_citations": 214
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
-      "num_citations": 152
+      "num_citations": 153
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 109
+      "num_citations": 113
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
@@ -25,7 +25,7 @@
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
-      "num_citations": 56
+      "num_citations": 57
     },
     "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
       "title": "DeFiWarder: Protecting DeFi apps from token leaking vulnerabilities",
@@ -33,7 +33,7 @@
     },
     "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 27
+      "num_citations": 28
     },
     "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
@@ -75,6 +75,10 @@
       "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
       "num_citations": 5
     },
+    "Zv_rC0AAAAAJ:9ZlFYXVOiuMC": {
+      "title": "ChainDelta: Automatic Patch-Based Exploit Generation for Ethereum with Fuzzing Agents",
+      "num_citations": 4
+    },
     "Zv_rC0AAAAAJ:4DMP91E08xMC": {
       "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
       "num_citations": 4
@@ -82,10 +86,6 @@
     "Zv_rC0AAAAAJ:_FxGoFyzp5QC": {
       "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
       "num_citations": 4
-    },
-    "Zv_rC0AAAAAJ:9ZlFYXVOiuMC": {
-      "title": "ChainDelta: Automatic Patch-Based Exploit Generation for Ethereum with Fuzzing Agents",
-      "num_citations": 3
     },
     "Zv_rC0AAAAAJ:4TOpqqG69KYC": {
       "title": "AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node. js Application.",
