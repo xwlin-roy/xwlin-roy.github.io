@@ -1,15 +1,15 @@
 {
-  "citedby": 1747,
+  "citedby": 1772,
   "hindex": 13,
   "i10index": 14,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 907
+      "num_citations": 918
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 214
+      "num_citations": 218
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
@@ -27,33 +27,33 @@
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
       "num_citations": 57
     },
-    "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
-      "title": "DeFiWarder: Protecting DeFi apps from token leaking vulnerabilities",
-      "num_citations": 29
+    "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
+      "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
+      "num_citations": 31
     },
     "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 28
+      "num_citations": 30
     },
-    "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
-      "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
-      "num_citations": 27
+    "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
+      "title": "DeFiWarder: Protecting DeFi apps from token leaking vulnerabilities",
+      "num_citations": 29
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
       "num_citations": 25
     },
+    "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
+      "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
+      "num_citations": 18
+    },
     "Zv_rC0AAAAAJ:eQOLeE2rZwMC": {
       "title": "HODOR: Shrinking Attack Surface on Node. js via System Call Limitation",
       "num_citations": 17
     },
-    "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
-      "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
-      "num_citations": 16
-    },
     "Zv_rC0AAAAAJ:hqOjcs7Dif8C": {
       "title": "Smartoracle: Generating smart contract oracle via fine-grained invariant detection",
-      "num_citations": 14
+      "num_citations": 15
     },
     "Zv_rC0AAAAAJ:Y0pCki6q_DkC": {
       "title": "Better pay attention whilst fuzzing",
@@ -87,13 +87,13 @@
       "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
       "num_citations": 4
     },
+    "Zv_rC0AAAAAJ:dhFuZR0502QC": {
+      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+      "num_citations": 3
+    },
     "Zv_rC0AAAAAJ:4TOpqqG69KYC": {
       "title": "AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node. js Application.",
       "num_citations": 3
-    },
-    "Zv_rC0AAAAAJ:dhFuZR0502QC": {
-      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
-      "num_citations": 2
     },
     "Zv_rC0AAAAAJ:mVmsd5A6BfQC": {
       "title": "Code Language Models for Security Patch Management: How Far Are We?",
