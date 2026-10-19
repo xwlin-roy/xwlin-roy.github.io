@@ -1,15 +1,15 @@
 {
-  "citedby": 1772,
+  "citedby": 1798,
   "hindex": 13,
   "i10index": 14,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 918
+      "num_citations": 934
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
-      "num_citations": 218
+      "num_citations": 221
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
@@ -21,19 +21,19 @@
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 83
+      "num_citations": 85
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
       "num_citations": 57
     },
+    "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
+      "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
+      "num_citations": 32
+    },
     "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
       "num_citations": 31
-    },
-    "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
-      "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 30
     },
     "Zv_rC0AAAAAJ:roLk4NBRz8UC": {
       "title": "DeFiWarder: Protecting DeFi apps from token leaking vulnerabilities",
@@ -41,7 +41,7 @@
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
-      "num_citations": 25
+      "num_citations": 26
     },
     "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
       "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
@@ -75,6 +75,14 @@
       "title": "Scuzer: A Scheduling Optimization Fuzzer for TVM",
       "num_citations": 5
     },
+    "Zv_rC0AAAAAJ:_FxGoFyzp5QC": {
+      "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
+      "num_citations": 5
+    },
+    "Zv_rC0AAAAAJ:dhFuZR0502QC": {
+      "title": "DreamGuard: Efficient runtime guardrail for LLM agents via risk-aware world model",
+      "num_citations": 4
+    },
     "Zv_rC0AAAAAJ:9ZlFYXVOiuMC": {
       "title": "ChainDelta: Automatic Patch-Based Exploit Generation for Ethereum with Fuzzing Agents",
       "num_citations": 4
@@ -82,14 +90,6 @@
     "Zv_rC0AAAAAJ:4DMP91E08xMC": {
       "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
       "num_citations": 4
-    },
-    "Zv_rC0AAAAAJ:_FxGoFyzp5QC": {
-      "title": "The best of both worlds: Integrating semantic features with expert features for smart contract vulnerability detection",
-      "num_citations": 4
-    },
-    "Zv_rC0AAAAAJ:dhFuZR0502QC": {
-      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
-      "num_citations": 3
     },
     "Zv_rC0AAAAAJ:4TOpqqG69KYC": {
       "title": "AePPollo: Automated Exploit Generation for Prototype Pollution Vulnerabilities in Node. js Application.",
