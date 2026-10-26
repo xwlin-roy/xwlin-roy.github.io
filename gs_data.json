@@ -1,11 +1,11 @@
 {
-  "citedby": 1798,
+  "citedby": 1815,
   "hindex": 13,
   "i10index": 14,
   "publications": {
     "Zv_rC0AAAAAJ:0EnyYjriUFMC": {
       "title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
-      "num_citations": 934
+      "num_citations": 946
     },
     "Zv_rC0AAAAAJ:WF5omc3nYNoC": {
       "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
@@ -13,15 +13,15 @@
     },
     "Zv_rC0AAAAAJ:IjCSPb-OGe4C": {
       "title": "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code",
-      "num_citations": 153
+      "num_citations": 154
     },
     "Zv_rC0AAAAAJ:LkGwnXOMwfcC": {
       "title": "Code is not natural language: Unlock the power of {Semantics-Oriented} graph representation for binary code similarity detection",
-      "num_citations": 113
+      "num_citations": 116
     },
     "Zv_rC0AAAAAJ:zYLM7Y9cAGgC": {
       "title": "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries",
-      "num_citations": 85
+      "num_citations": 86
     },
     "Zv_rC0AAAAAJ:Tyk-4Ss8FVUC": {
       "title": "V-shuttle: Scalable and semantics-aware hypervisor virtual device fuzzing",
@@ -29,7 +29,7 @@
     },
     "Zv_rC0AAAAAJ:YOwf2qJgpHMC": {
       "title": "{MalGuard}: Towards {Real-Time}, Accurate, and Actionable Detection of Malicious Packages in {PyPI} Ecosystem",
-      "num_citations": 32
+      "num_citations": 33
     },
     "Zv_rC0AAAAAJ:MXK_kJrjxJIC": {
       "title": "Snopy: Bridging sample denoising with causal graph learning for effective vulnerability detection",
@@ -41,7 +41,7 @@
     },
     "Zv_rC0AAAAAJ:5nxA0vEk-isC": {
       "title": "Hyperion: Unveiling dapp inconsistencies using llm and dataflow-guided symbolic execution",
-      "num_citations": 26
+      "num_citations": 25
     },
     "Zv_rC0AAAAAJ:8k81kl-MbHgC": {
       "title": "Midas: Mining profitable exploits in on-chain smart contracts via feedback-driven fuzzing and differential analysis",
